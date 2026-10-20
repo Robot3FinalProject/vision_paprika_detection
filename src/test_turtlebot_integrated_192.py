@@ -30,7 +30,7 @@ app = Flask(__name__)
 # ==========================================
 VERSION_TAG = "v3.0_Integrated_192_NCNN"
 MODEL_PATH = "/home/ubuntu/models/v3.x/yolo11_seg_2class_synth_and_simul_and_mokup_v3.0/weights/best_192_ncnn_model"
-SAVE_DIR = "/home/ubuntu/result/v3.x/phase1_integrated_test_speedup"
+SAVE_DIR = "/home/ubuntu/result/v3.x/phase1_integrated_test"
 CONF_THRESHOLD = 0.25
 IMGSZ = 192
 
